@@ -1,6 +1,8 @@
 <template>
 	<div className="wrapper">
-		<h1>Погодное приложение</h1>
+    <h1>Hello</h1>
+
+    <h1>Погодное приложение</h1>
 		<p>Узнать погоду в {{ city == '' ? 'вашем городе' : cityName }}</p>
 		<input type="text" v-model="city" placeholder="Введите ваш город" />
 		<button v-if="city != ''" @click="getWeather()">Узнать погоду</button>
