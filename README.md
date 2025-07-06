@@ -1,4 +1,4 @@
-# GetWeatherInfoForMyCity
+# Get_Weather_Info_For_My_City
 
 This template should help get you started developing with Vue 3 in Vite.
 
